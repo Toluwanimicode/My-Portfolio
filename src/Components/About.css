@@ -1,0 +1,10 @@
+    .about { padding: 5rem 2rem; background: #080f1e; }
+    .about__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2rem; }
+    .about__text h3 { font-size: 1.4rem; color: var(--text-light); margin-bottom: 1rem; }
+    .about__text p  { color: var(--text-muted); line-height: 1.9; margin-bottom: 1rem; }
+    .about__info { display: flex; flex-direction: column; gap: 1rem; }
+    .about__info-item { display: flex; align-items: center; gap: 1rem; padding: 0.75rem 1rem; background: var(--bg-card); border-radius: 10px; border: 1px solid var(--border); }
+    .about__info-icon  { font-size: 1.3rem; }
+    .about__info-label { display: block; font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; }
+    .about__info-value { font-size: 0.9rem; color: var(--text-light); font-weight: 500; }
+    @media (max-width: 768px) { .about__grid { grid-template-columns: 1fr; } }

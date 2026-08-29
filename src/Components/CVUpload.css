@@ -1,0 +1,12 @@
+    .cv-upload { padding: 5rem 2rem; background: var(--bg-dark); }
+    .cv-upload__content { max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
+    .cv-upload__dropzone { width: 100%; border: 2px dashed var(--border); border-radius: 16px; padding: 3rem 2rem; text-align: center; transition: all 0.3s; background: var(--bg-card); }
+    .cv-upload__dropzone--dragging { border-color: var(--primary); background: rgba(37,99,235,0.08); transform: scale(1.01); }
+    .cv-upload__dropzone--filled { border-color: #059669; border-style: solid; }
+    .cv-upload__icon { font-size: 3rem; display: block; margin-bottom: 1rem; }
+    .cv-upload__text { color: var(--text-light); font-weight: 600; margin-bottom: 0.4rem; }
+    .cv-upload__subtext { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+    .cv-upload__browse-btn { display: inline-block; padding: 0.7rem 1.8rem; background: var(--primary); color: white; border-radius: 50px; cursor: pointer; font-weight: 600; }
+    .cv-upload__input { display: none; }
+    .cv-upload__message { color: #34d399; font-size: 0.9rem; }
+    .cv-upload__download { padding: 1rem 2.5rem; font-size: 1rem; }

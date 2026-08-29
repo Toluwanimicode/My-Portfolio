@@ -1,0 +1,11 @@
+    .education { padding: 5rem 2rem; background: var(--bg-dark); }
+    .timeline { max-width: 700px; margin: 2rem auto 0; position: relative; }
+    .timeline::before { content:""; position:absolute; left:2rem; top:0; bottom:0; width:2px; background:var(--border); }
+    .timeline__item { display:flex; gap:2rem; margin-bottom:2.5rem; position:relative; }
+    .timeline__dot { width:4rem; height:4rem; border-radius:50%; background:var(--bg-card); border:2px solid var(--primary); display:flex; align-items:center; justify-content:center; font-size:1.5rem; flex-shrink:0; z-index:1; }
+    .timeline__content { background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:1.5rem; flex:1; }
+    .timeline__content h3 { color:var(--text-light); font-size:1rem; margin-bottom:0.3rem; }
+    .timeline__school { color:var(--primary); font-size:0.9rem; margin-bottom:0.2rem; }
+    .timeline__year   { color:var(--text-muted); font-size:0.85rem; margin-bottom:0.75rem; }
+    .timeline__grade  { background:rgba(37,99,235,0.15); color:var(--accent); font-size:0.8rem; padding:0.25rem 0.75rem; border-radius:50px; }
+ 
